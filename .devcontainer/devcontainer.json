@@ -1,0 +1,6 @@
+{
+  "name": "crewai-exercises",
+  "//": "crewai / crewai-tools declare Requires-Python >=3.10,<3.14. CodeSandbox pins Python via the Dockerfile's FROM line (an \"image\" key has no effect).",
+  "build": { "dockerfile": "Dockerfile" },
+  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "//": "The Python version is decided by .devcontainer/Dockerfile (3.12). This file only says what to run.",
+  "setupTasks": [
+    {
+      "name": "Check Python version (3.10-3.13 required)",
+      "command": "python --version"
+    },
+    {
+      "name": "Install dependencies",
+      "command": "python -m pip install --upgrade pip && pip install -r requirements.txt"
+    }
+  ],
+  "tasks": {
+    "smoke-test": {
+      "name": "Smoke test (verify the Gemini connection)",
+      "command": "python smoke_test.py",
+      "runAtStart": false
+    }
+  }
+}

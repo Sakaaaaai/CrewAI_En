@@ -1,0 +1,19 @@
+[Internal Study Session Notes]
+
+Topic: Using generative AI in day-to-day work
+Date/Time: April 15, 2026, 2:00-3:30 PM
+Attendees: 5 from the dev team, 3 from the planning team
+
+Discussion topics:
+- Whether generative AI can be used to auto-summarize meeting notes
+- Drafting responses to customer inquiries
+- Improving internal document search
+
+Decisions:
+- First build a prototype for meeting-notes summarization (owner: Tanaka)
+- Demo it at next month's study session
+- Keep costs under 5,000 yen per month
+
+Open items / issues:
+- Rules for handling confidential information are not yet in place
+- Which model to use will be decided next time

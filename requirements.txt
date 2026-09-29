@@ -1,0 +1,4 @@
+crewai[google-genai]
+crewai-tools
+pyyaml
+python-dotenv

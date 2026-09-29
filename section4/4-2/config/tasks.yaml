@@ -1,0 +1,7 @@
+research_task:
+  description: "Research 3 key points about {topic}, suitable for beginners."
+  expected_output: Research results as 3 bullet points
+
+write_task:
+  description: Based on the research results, write an article of about 200 words introducing {topic}.
+  expected_output: An article of about 200 words

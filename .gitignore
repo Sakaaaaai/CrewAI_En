@@ -1,0 +1,17 @@
+# Never upload a real API key (only .env.example is distributed)
+.env
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Artifacts produced by running the exercises
+report.md
+proposal.md
+
+# CrewAI run logs and cache
+.crewai/
+*.log
